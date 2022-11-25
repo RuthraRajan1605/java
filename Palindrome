@@ -1,0 +1,26 @@
+package package1;
+
+public class palindrome {
+	public static void main(String[]args)
+	{
+		String str="ruth",revStr="";
+		int l=str.length();
+		for (int i=l-1;i>=0;i--)
+		{
+			revStr=revStr+str.charAt(i);
+		}
+		if(str.toLowerCase().equals(revStr.toLowerCase()))
+		{
+			System.out.println("palin");
+			
+			
+		}
+		else
+		{
+			System.out.println("not");
+			
+		}
+			
+	}
+
+}
