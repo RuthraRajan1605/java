@@ -1,0 +1,21 @@
+package onlineVideos;
+
+public class leftTriangle {
+
+	public static void main(String[] args) {
+		int i,j,k,num=6;
+		for(i=1;i<=num;i++) {
+			for(j=1;j<=num-i;j++) {
+				System.out.print(" ");
+			}
+			for(k=1;k<=i;k++) {
+				System.out.print("*");
+				
+			}
+			System.out.println();
+			
+		}
+		
+	}
+
+}
