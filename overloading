@@ -1,0 +1,26 @@
+package onlineVideos;
+//method overloading
+class Casio
+{
+	public void add(int i,int j) {
+		System.out.println(i+j);
+	}
+	public void add(int i ,int j,int k ) {
+		System.out.println(i+j+k);
+	}
+	public void add(double i,double j) {
+		System.out.println(i+j);
+	}
+}
+public class polymorphism1 {
+	public static void main(String[]args)
+	{
+		Casio c =new Casio();
+		c.add(5,2);
+		c.add(2,3,4);
+		c.add(4.5,5.5);
+	
+	
+	}
+
+}
