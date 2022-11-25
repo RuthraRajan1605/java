@@ -1,0 +1,15 @@
+package package1;
+
+public class CountOccurrenceChar {
+
+	public static void main(String[] args) {
+		String s="java programming language";
+		int total=s.length();
+		int totalRemove=s.replace("a", "").length();
+		int count=total-totalRemove;
+		System.out.println(totalRemove);
+		
+		
+	}
+
+}
