@@ -1,0 +1,72 @@
+package package1;
+
+
+
+
+public class CharacterPattern {
+
+	public static void main(String[] args) {       
+		
+		/*
+		 A
+		 B C
+		 D E F
+		 G H I J
+		 K L M N O
+		 */
+		 
+		 
+		 
+		char ch='A';                                            
+		for(int i=1;i<=5;i++) {
+			for(int j=1;j<=i;j++) {
+				System.out.print(ch+" ");
+				ch++;
+				
+			}
+			System.out.println();
+			
+		}
+		
+		/*
+	
+		 * A
+		 * B B
+		 * C C C 
+		 * D D D D
+		 * E E E E E 
+		*/
+		
+		char ch1 = 'A';
+		for(int i=1;i<=5;i++) {
+			for(int j=1;j<=i;j++) 
+				System.out.print(ch+" ");
+			System.out.println();
+			ch++;
+		}
+		
+		
+		
+		/*
+		 *A
+		 *A B
+		 *A B C
+		 *A B C D
+		 *A B C D E
+		 */
+		 
+			
+		char ch2='A';
+		for(int i=1;i<=5;i++) {
+			ch2='A';
+			for(int j=1;j<=i;j++) {
+				System.out.print(ch2+" ");
+				ch2++;
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
