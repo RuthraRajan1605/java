@@ -1,0 +1,21 @@
+package package1;
+
+
+interface Abc
+{
+	void show();
+	
+}
+class A implements Abc
+{
+	public void show() {
+		System.out.println("anything");
+	}
+}
+public class interfaces {
+	public static void main(String[]args) {
+		Abc c=new A();
+		c.show();
+		}
+
+}
