@@ -1,0 +1,20 @@
+package package1;
+import java.util.Scanner;
+public class CountNumDigit {
+
+	public static void main(String[] args) {
+		Scanner rut =new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=rut.nextInt();
+		int count=0;
+		while(num>0)
+		{
+			num/=10;
+			count++;
+		}
+		System.out.println(count);
+		
+		
+	}
+
+}
