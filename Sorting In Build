@@ -1,0 +1,31 @@
+package package1;
+
+import java.util.Arrays;
+
+public class SortingInBuild {
+
+	public static void main(String[] args) {
+		//int a[]= {4,2,1,7,5};
+		
+		/*
+		Arrays.parallelSort(a);
+		System.out.println("array sorted as"+Arrays.toString(a));*/
+		
+		/*
+		Arrays.sort(a);
+		System.out.println(a);*/
+		
+		
+		Integer a[]= {30,20,50,10,60};
+		Arrays.sort(a,Collections.reverseOrder());
+		System.out.println("array sorted as"+Arrays.toString(a));
+		
+		
+		
+		
+	
+		
+	                      
+	}
+
+}
