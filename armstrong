@@ -1,0 +1,23 @@
+package package1;
+
+public class armstrong {
+
+	public static void main(String[] args) {
+		int a=153;
+		
+		int num,rem,sum=0;
+		num=a;
+		while (num!=0) {
+			rem=num%10;
+			sum+=(rem*rem*rem);
+			num/=10;
+			
+		}
+		if(sum==a) {
+			System.out.println("armstrong");
+		}
+		
+
+	}
+
+}
