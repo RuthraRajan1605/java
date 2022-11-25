@@ -1,0 +1,38 @@
+package package1;
+
+public class armstrongIntervals {
+
+	public static void main(String[] args) {
+		int a=1;
+		int b=1000;
+		findArmstrong( a, b);
+		
+	}
+	static void findArmstrong(int a,int b) {
+		for(int i=a;i<=b;i++) {
+			int num=i;
+			int sum=0,rem;
+			while(num>0) {
+				rem=num%10;
+				sum+=(rem*rem*rem);
+				num/=10;
+				
+			}
+			if(sum==i) {
+				System.out.println(sum);
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}
+
+
+
