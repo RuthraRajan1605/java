@@ -1,0 +1,11 @@
+package package1;
+
+public class RemoveSpecialChar {
+	public static void main(String[]args) {
+		
+	
+	String s="r@thra?..ruth string 1234" ;
+	s=s.replaceAll("[^a-zA-Z0-9]","");
+	System.out.println(s);
+}
+}
